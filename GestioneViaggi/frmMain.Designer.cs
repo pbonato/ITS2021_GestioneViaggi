@@ -45,7 +45,7 @@ namespace GestioneViaggi
             this.tsBtnMezzi});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(643, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(481, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -56,6 +56,7 @@ namespace GestioneViaggi
             this.tsBtnViaggi.Name = "tsBtnViaggi";
             this.tsBtnViaggi.Size = new System.Drawing.Size(60, 22);
             this.tsBtnViaggi.Text = "Viaggi";
+            this.tsBtnViaggi.Click += new System.EventHandler(this.tsBtnViaggi_Click);
             // 
             // tsBtnAutisti
             // 
@@ -73,16 +74,18 @@ namespace GestioneViaggi
             this.tsBtnMezzi.Name = "tsBtnMezzi";
             this.tsBtnMezzi.Size = new System.Drawing.Size(57, 22);
             this.tsBtnMezzi.Text = "Mezzi";
+            this.tsBtnMezzi.Click += new System.EventHandler(this.tsBtnMezzi_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 346);
+            this.ClientSize = new System.Drawing.Size(481, 342);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
             this.Name = "frmMain";
             this.Text = "Gestione Viaggi";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

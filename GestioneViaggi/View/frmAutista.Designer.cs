@@ -42,18 +42,18 @@ namespace GestioneViaggi.View
             // txtNome
             // 
             this.txtNome.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(143, 63);
+            this.txtNome.Location = new System.Drawing.Point(161, 63);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(176, 35);
-            this.txtNome.TabIndex = 0;
+            this.txtNome.TabIndex = 1;
             // 
             // txtCognome
             // 
             this.txtCognome.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCognome.Location = new System.Drawing.Point(143, 22);
+            this.txtCognome.Location = new System.Drawing.Point(161, 22);
             this.txtCognome.Name = "txtCognome";
             this.txtCognome.Size = new System.Drawing.Size(176, 35);
-            this.txtCognome.TabIndex = 1;
+            this.txtCognome.TabIndex = 0;
             // 
             // label1
             // 
@@ -85,6 +85,7 @@ namespace GestioneViaggi.View
             this.btnDelete.Size = new System.Drawing.Size(50, 50);
             this.btnDelete.TabIndex = 4;
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnEdit
             // 
@@ -96,6 +97,7 @@ namespace GestioneViaggi.View
             this.btnEdit.Size = new System.Drawing.Size(50, 50);
             this.btnEdit.TabIndex = 5;
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnAdd
             // 
@@ -105,7 +107,7 @@ namespace GestioneViaggi.View
             this.btnAdd.Location = new System.Drawing.Point(351, 22);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(50, 50);
-            this.btnAdd.TabIndex = 6;
+            this.btnAdd.TabIndex = 3;
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
@@ -115,8 +117,8 @@ namespace GestioneViaggi.View
             this.cmbAutista.FormattingEnabled = true;
             this.cmbAutista.Location = new System.Drawing.Point(22, 115);
             this.cmbAutista.Name = "cmbAutista";
-            this.cmbAutista.Size = new System.Drawing.Size(297, 36);
-            this.cmbAutista.TabIndex = 7;
+            this.cmbAutista.Size = new System.Drawing.Size(315, 36);
+            this.cmbAutista.TabIndex = 2;
             // 
             // frmAutista
             // 

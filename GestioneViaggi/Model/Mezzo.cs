@@ -6,20 +6,18 @@ using System.Threading.Tasks;
 
 namespace GestioneViaggi.Model
 {
-    class Autista
+    class Mezzo
     {
         public int id { get; set; }
-        public string Cognome { get; set; }
-        public string Nome { get; set; }
+        public string Descrizione { get; set; }
 
-        public Autista (string Cognome,string Nome)
+        public Mezzo(string Descrizione)
         {
             this.id = -1;
-            this.Cognome = Cognome;
-            this.Nome = Nome;
+            this.Descrizione = Descrizione;
         }
 
-        public Autista()
+        public Mezzo()
         {
             this.id = -1;
         }

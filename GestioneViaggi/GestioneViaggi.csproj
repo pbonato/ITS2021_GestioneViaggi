@@ -58,6 +58,8 @@
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Autisti.cs" />
+    <Compile Include="Model\Mezzi.cs" />
+    <Compile Include="Model\Mezzo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\frmAutista.cs">
@@ -65,6 +67,18 @@
     </Compile>
     <Compile Include="View\frmAutista.Designer.cs">
       <DependentUpon>frmAutista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmMezzi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmMezzi.Designer.cs">
+      <DependentUpon>frmMezzi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\frmViaggi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmViaggi.Designer.cs">
+      <DependentUpon>frmViaggi.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -81,6 +95,12 @@
     </Compile>
     <EmbeddedResource Include="View\frmAutista.resx">
       <DependentUpon>frmAutista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmMezzi.resx">
+      <DependentUpon>frmMezzi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmViaggi.resx">
+      <DependentUpon>frmViaggi.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
